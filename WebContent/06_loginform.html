@@ -6,8 +6,8 @@
 </head>
 <body>
 <h1>로그인 입력 화면</h1>
-<form action="07_logininfo.jsp" method="get">
-	<fieldset>
+<form action="07_logininfo.jsp" method="get"> <!-- method 부분을  get이 아닌 post로 바꾸면 값들이 주소창에 노출되지 않음-->
+	<fieldset>									<!-- get일때는 한글도 입력되지만, post일때는 한글을 입력하면 글자가 깨진다. -->
 		<legend>로그인 폼</legend>
 		<ul>
 			<li>
