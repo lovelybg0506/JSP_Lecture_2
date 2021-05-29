@@ -21,6 +21,7 @@
 	for(int i=0;i<likes.length;i++)
 		out.print(likes[i]+"&nbsp;&nbsp;");
 %>
+입니다.
 
 </body>
 </html>
